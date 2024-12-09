@@ -3,8 +3,7 @@ description: Demonstrates how to use the Geoflutterfire2 plugin.
 publish_to: "none"
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
-
+  sdk: '>=3.2.3 <4.0.0'
 dependencies:
   flutter:
     sdk: flutter
@@ -20,8 +19,8 @@ dev_dependencies:
   geoflutterfire2:
     path: ../
 
-  cloud_firestore: ^4.4.4
-  google_maps_flutter: ^2.2.5
+  cloud_firestore: ^5.5.1
+  google_maps_flutter: ^2.10.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://www.dartlang.org/tools/pub/pubspec
